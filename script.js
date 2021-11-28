@@ -1,6 +1,6 @@
 let numbers = {
   day1: {
-    day: new Date('December 1, 2021 00:00:01'),
+    day: new Date('November 1, 2021 00:00:01'),
     dayID: "day1",
     youtube: "https://www.youtube.com/embed/SSSvQ8ushNg"
   },
