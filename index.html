@@ -14,12 +14,7 @@
 </head>
 
 <body>
-  <!-- get all the videos in place -->
-  <!-- cross-browser testing etc -->
   <!-- use esc to close box -->
-  <!-- get the calendar embedded in the wix site -->
-
-
   <video autoplay muted loop id="backgroundVideo">
     <source src="backgroundVid.mp4" type="video/mp4">
   </video>
@@ -29,6 +24,7 @@
 
   <img id="logo" src="img/logo.png">
 
+  <!-- calendar -->
   <div id="calendar">
     <ol class="calendar-month">
       <li class="week">
@@ -214,36 +210,31 @@
     </ol>
   </div>
 
-
+<!-- footer -->
   <container id="footer-container" class="footer-content">
-
     <p class="footer-text" id="adventText">2021 Advent Calendar</p>
-
+    <!-- mailchimp -->
     <container id="mailchimp-container">
       <div id="mc_embed_signup">
         <form action="https://gmsm.us12.list-manage.com/subscribe/post?u=8f354e0cee7bf7caed4af86d7&amp;id=db3e7bac07"
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
           target="_blank" novalidate>
-
           <div id="mc_embed_signup_scroll">
-
             <p class="footer-text">Let’s countdown to Christmas together!<br>Enter your email to receive a new video every
               day until Christmas day.</p>
             <!-- <label for="mce-EMAIL">Subscribe</label> -->
             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
                 name="b_8f354e0cee7bf7caed4af86d7_db3e7bac07" tabindex="-1" value=""></div>
-
             <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
                 class="button"></div>
           </div>
         </form>
       </div> -->
     </container>
-
+    <!-- paypal -->
     <container id="paypal-container">
       <p id="paypal-text" class="footer-text">Help us make more projects like this in the future by donating here!</p>
-
       <div id="donate-button-container">
         <div id="donate-button"></div>
         <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
@@ -260,11 +251,7 @@
         </script>
         </div>
     </container>
-
   </container>
-  <!-- partial -->
   <script src="script.js"></script>
-
 </body>
-
 </html>

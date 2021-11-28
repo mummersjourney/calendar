@@ -51,11 +51,8 @@ table {
 body {
   font-family: Arial, sans-serif;
   font-family: myFont;
-
   letter-spacing: .15rem;
   font-size: 1rem;
-  /* padding: 50px 0; */
-  /* margin: 0; */
   background: black;
 }
 
@@ -64,10 +61,6 @@ a {
   text-decoration: none;
 }
 
-#calendar {
-  /* display: block; */
-  /* position: relative; */
-}
 
 .calendar-month {
   width: 86.5%;
@@ -135,17 +128,8 @@ a {
   border-top: 1px solid #ff0000;
   transition: 0.5s;
   box-sizing: border-box;
-  background-size: cover;
-  
+  background-size: cover;  
 }
-
-#day1 {
-    /* background-image: url("img/bell.png"); */
-    /* background-repeat: no-repeat; */
-    /* background-size: contain, cover; */
-
-  }
-
 
 .icon{
   box-sizing: border-box;
@@ -154,12 +138,9 @@ a {
   margin-right: auto;
   padding-top: 2.1rem;
   max-width: 40%;  
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 .icon-thin{
-  /* padding-top: 2rem; */
   max-width: 65%;
 }
 
@@ -170,11 +151,9 @@ a {
 
 .icon-short{
 padding-top: 3.3rem;
-/* max-width: 50%;   */
 }
 
 .icon-thick{
-  /* padding-top: 2rem; */
   max-width: 33%;
 }
 
@@ -184,7 +163,6 @@ padding-top: 3.3rem;
   }
   
   .icon-thin{
-    /* padding-top: 2rem; */
     max-width: 65%;
   }
   
@@ -201,7 +179,7 @@ padding-top: 3.3rem;
     max-width: 53%;
   }
 
-  }
+}
 
 
 .blurIcon{
@@ -213,10 +191,6 @@ padding-top: 3.3rem;
 .colorIcon{
 
 }
-
-/* .calendar-month .day {
-  background-color: rgba(3,3,3,.1); 
-} */
 
 .inactiveTint {
   /* background-color: rgba(3,3,3,.1);  */
@@ -271,7 +245,6 @@ padding-top: 3.3rem;
   flex-direction: column;
   width: 100% !important;
   margin: auto !important;
-  /* margin-top: 3rem !important; */
   padding: 0 !important;
 }
 
@@ -346,20 +319,9 @@ padding-top: 3.3rem;
   position: absolute; 
   top: 0; 
   left: 0; 
-  /* margin: auto; */
   width: 100%; 
-  /* height: 75%;  */
   
 }
-
-
-/* 
-@media (max-width: 767px) {
-  .vidDiv {
-    width: 100%;
-    height: 100%; 
-  }
-} */
 
 .close {
   color: white;
@@ -379,7 +341,6 @@ padding-top: 3.3rem;
     top: -16px;
   }
 }
-
 
 .close:hover {
   opacity: 1;
