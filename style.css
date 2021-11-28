@@ -365,12 +365,20 @@ padding-top: 3.3rem;
 }
 
 #logo {
-  width: 15rem;
+  width: 12rem;
   display: block;
   margin: 2rem auto;
-  margin-top: 7rem;
+  margin-top: 3rem;
   padding: 1rem;
 }
+
+@media (max-width: 767px) {
+  #logo {
+    width: 8rem;
+  }
+
+}
+
 
 /* background video  */
 /* Style the video: 100% width and height to cover the entire window */

@@ -170,6 +170,12 @@ console.log("functionThatReceivesAnEvent");
 
 let vidDiv = document.getElementById("vidDiv");
 
+function hideVidDiv() {
+  vidDiv.innerHTML = null;
+  vidDiv.classList.remove("vidDiv");
+  vidDiv.classList.remove("visible");
+}
+
 function displayVidDiv(e) {
   let clickedDayID = e.srcElement.closest("li").id;
   let thisVideo = numbers[clickedDayID].youtube;
@@ -185,8 +191,11 @@ function displayVidDiv(e) {
   vidDiv.classList.add("visible");
 }
 
-function hideVidDiv() {
-  vidDiv.innerHTML = null;
-  vidDiv.classList.remove("vidDiv");
-  vidDiv.classList.remove("visible");
-}
+document.onkeydown = function(evt) {
+  evt = evt || window.event;
+  if (evt.keyCode == 27) {
+    hideVidDiv();
+  }
+};
+
+
