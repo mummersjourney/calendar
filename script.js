@@ -189,6 +189,7 @@ function displayVidDiv(e) {
   vidDiv.appendChild(a);
   a.addEventListener('click', hideVidDiv);
   vidDiv.classList.add("visible");
+  // location.href="#paypal-container";
 }
 
 document.onkeydown = function(evt) {

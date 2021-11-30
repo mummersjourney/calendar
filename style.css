@@ -272,11 +272,12 @@ padding-top: 3.3rem;
 
 .footer-text {
   text-align: center;
-  padding: 1rem 5rem;  
+  padding: .8rem 5rem;  
   color: white;
-  line-height: 2.3rem;
+  line-height: 2.1rem;
   letter-spacing: .15rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  font-size: .7rem;
 }
 
 @media (max-width: 767px) {
@@ -337,7 +338,7 @@ padding-top: 3.3rem;
 
 #backgroundVideo {
   position: fixed;
-  left: 0;
+  left: -170%;
   top: 0;
   min-width: 100%;
   min-height: 100%;
