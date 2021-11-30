@@ -288,15 +288,25 @@ padding-top: 3.3rem;
 }
 
 #adventText {
+  width: 86.5%;
+  margin: 0 auto;
+  padding: 20px;
+  /* background: rgba(255, 255, 255, 0.835); */
   text-align: center;
-  text-transform: capitalize;
-  padding: 2rem;
-  color: red;
-  font-size: 1.3rem;
-  /* background:rgba(8, 23, 14, 0.469); */
-  width: 84.2%;
-  margin: auto;
+  /* text-transform: capitalize; */
+  border-bottom: 7px dotted #ff0000;
+  margin-bottom: 1rem;;
+  /* border-top-left-radius: 50%; */
+  /* border-top-right-radius: 50%; */
+
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
 }
+
+#cs {
+  font-size: 1rem;
+}
+
 @media (max-width: 767px) {
   #adventText {
     text-align: center;
@@ -428,7 +438,10 @@ padding-top: 3.3rem;
   display: block;
   margin: 0rem auto;
   margin-top: 2rem;
+  margin-bottom: 0;
   padding: 1rem;
+  padding-bottom: 0;
+
 }
 
 @media (max-width: 767px) {
