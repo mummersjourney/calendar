@@ -308,6 +308,50 @@ padding-top: 3.3rem;
   }
 }
 
+#bgVidDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -100;
+
+}
+
+/* #backgroundVideo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -200;
+} */
+
+#bgVidDiv > video {
+  display: block;
+  position: fixed;
+  left: 30%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  overflow: hidden
+}
+
+@media screen and (max-aspect-ratio: 1920/1080) {
+  .bgVidDiv > video {
+    height: 100%;
+  }
+}
+@media screen and (min-aspect-ratio: 1920/1080) {
+  .bgVidDiv > video {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
 
 .vidDiv {
   z-index: 5;
@@ -394,19 +438,6 @@ padding-top: 3.3rem;
   }
 
 }
-
-
-/* background video  */
-/* Style the video: 100% width and height to cover the entire window */
-#backgroundVideo {
-  position: fixed;
-  left: 0;
-  top: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -200;
-}
-
 
 /* *************** */
 /* mailchimp stuff */
