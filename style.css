@@ -319,12 +319,19 @@ padding-top: 3.3rem;
 }
 
 #bgVidDiv {
-  position: fixed;
+  /* position: fixed;
   top: 0;
   left: 0;
   min-width: 100vw;
   min-height: 100vh;
-  z-index: -100;
+  z-index: -100; */
+
+  position: fixed;
+    top: 0;
+    left: 0;
+    /* min-width: 100vw; */
+    height: 200%;
+    z-index: -100;
 
 }
 
@@ -338,12 +345,18 @@ padding-top: 3.3rem;
 } */
 
 #bgVidDiv > video {
-  display: block;
+  /* display: block;
   position: fixed;
   left: 30%;
   top: 70%;
   transform: translate(-50%, -50%);
-  overflow: hidden
+  overflow: hidden */
+
+  display: block;
+  position: fixed;
+  top: 80%;
+  height: 100%;
+  transform: translate(-50%, -100%);
 }
 
 @media screen and (max-aspect-ratio: 1920/1080) {
@@ -439,6 +452,7 @@ padding-top: 3.3rem;
   margin: 0rem auto;
   margin-top: 2rem;
   margin-bottom: 0;
+
   padding: 1rem;
   padding-bottom: 0;
 
