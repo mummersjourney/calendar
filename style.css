@@ -72,7 +72,8 @@ a {
 
 @media (max-width: 768px) {
   .calendar-month {
-    /* padding: 2px; */
+    width: 92.5%;
+    padding: 2px;
   }
 }
 
@@ -216,6 +217,7 @@ padding-top: 3.3rem;
 }
 
 .calendar-month .day__number {
+  font-size: .6rem;
   position: absolute;
   right: 20px;
   top: 20px;
@@ -253,7 +255,7 @@ padding-top: 3.3rem;
   flex-direction: column; 
   align-items: center;
   background-color:black;
-  margin-top: 4rem;
+  margin-top: 0rem;
   box-sizing: border-box !important; 
   padding: 3rem 5rem;
 }
@@ -270,7 +272,7 @@ padding-top: 3.3rem;
 
 .footer-text {
   text-align: center;
-  padding: 2rem 6rem;  
+  padding: 1rem 5rem;  
   color: white;
   line-height: 2.3rem;
   letter-spacing: .15rem;
@@ -280,6 +282,8 @@ padding-top: 3.3rem;
 @media (max-width: 767px) {
   .footer-text {
     padding: 0.25rem 1rem;
+    font-size: .7rem;
+    line-height: 1.6rem;
     }
 }
 
@@ -289,10 +293,21 @@ padding-top: 3.3rem;
   padding: 2rem;
   color: red;
   font-size: 1.3rem;
-  background:rgba(8, 23, 14, 0.469);
+  /* background:rgba(8, 23, 14, 0.469); */
   width: 84.2%;
   margin: auto;
 }
+@media (max-width: 767px) {
+  #adventText {
+    text-align: center;
+    text-transform: capitalize;
+    padding: .5rem;
+    color: red;
+    font-size: .8rem;
+    width: 84.2%;
+  }
+}
+
 
 .vidDiv {
   z-index: 5;
@@ -367,14 +382,15 @@ padding-top: 3.3rem;
 #logo {
   width: 12rem;
   display: block;
-  margin: 2rem auto;
-  margin-top: 3rem;
+  margin: 0rem auto;
+  margin-top: 2rem;
   padding: 1rem;
 }
 
 @media (max-width: 767px) {
   #logo {
-    width: 8rem;
+    width: 6rem;
+    margin: .25rem auto;
   }
 
 }
@@ -427,6 +443,7 @@ padding-top: 3.3rem;
 	box-sizing: border-box;
 	height: 32px;
 	padding: 0px 0.4em;
+  
 	display: inline-block;
 	margin: 0;
 	width: 60%;
@@ -471,6 +488,7 @@ padding-top: 3.3rem;
 	cursor: pointer;
 }
 
+
 #mc_embed_signup div#mce-responses {
 	float: left;
 	top: -1.4em;
@@ -511,7 +529,7 @@ padding-top: 3.3rem;
 
 @media (max-width: 768px) {
   #mc_embed_signup form {
-    margin: 6rem 1rem 4rem 1rem;
+    margin: 4rem 1rem 4rem 1rem;
     /* font-size: 1rem; */
   }
 
