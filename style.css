@@ -335,14 +335,14 @@ padding-top: 3.3rem;
 
 }
 
-/* #backgroundVideo {
+#backgroundVideo {
   position: fixed;
   left: 0;
   top: 0;
   min-width: 100%;
   min-height: 100%;
   z-index: -200;
-} */
+}
 
 #bgVidDiv > video {
   /* display: block;
