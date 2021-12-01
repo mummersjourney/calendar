@@ -338,7 +338,7 @@ padding-top: 3.3rem;
 
 #backgroundVideo {
   position: fixed;
-  left: -70%;
+  /* left: -70%; */
   top: 0;
   min-width: 100%;
   min-height: 100%;
