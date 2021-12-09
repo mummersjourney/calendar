@@ -396,16 +396,11 @@ padding-top: 3.3rem;
 }
 
 
-
-
-
-
-
 .vidDiv {
   z-index: 5;
   left: 9.5%;
   right: 9.5%;
-  top: 5%;
+  top: 15%;
   background-color: rgba(0, 0, 0, 0.9);
   opacity: 100%;
   position: fixed;
