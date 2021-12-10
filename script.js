@@ -47,12 +47,12 @@ let numbers = {
   day10: {
     day: new Date('December 10, 2021 00:00:01'),
     dayID: "day10",
-    youtube: "https://www.youtube.com/embed/N1-WBSbNpyo"
+    youtube: "https://www.youtube.com/embed/VWypmpPCsZ0"
   },
   day11: {
     day: new Date('December 11, 2021 00:00:01'),
     dayID: "day11",
-    youtube: "https://www.youtube.com/embed/XTkUcpFk6QE"
+    youtube: "https://www.youtube.com/embed/j0wM1Tqv6cQ"
   },
   day12: {
     day: new Date('December 12, 2021 00:00:01'),
