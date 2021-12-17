@@ -82,7 +82,7 @@ let numbers = {
   day17: {
     day: new Date('December 17, 2021 00:00:01'),
     dayID: "day17",
-    youtube: "www.youtube.com/embed/iIXx4f9YR4o"
+    youtube: "https://www.youtube.com/embed/iIXx4f9YR4o"
   },
   day18: {
     day: new Date('December 18, 2021 00:00:01'),
