@@ -112,12 +112,12 @@ let numbers = {
   day23: {
     day: new Date('December 23, 2021 00:00:01'),
     dayID: "day23",
-    youtube: "https://www.youtube.com/embed/NnjHyaCVAho"
+    youtube: "https://youtube.com/embed/WlNhiyHl7gk"
   },
   day24: {
     day: new Date('December 24, 2021 00:00:01'),
     dayID: "day24",
-    youtube: "https://www.youtube.com/embed/PA1RhS4ezYs"
+    youtube: "https://youtube.com/embed/OVBv4bMDdAw"
   }
 };
 
